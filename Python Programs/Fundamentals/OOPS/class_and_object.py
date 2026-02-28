@@ -10,6 +10,8 @@ class student:
 # object - instance of a class.
 std_obj = student("Akshaya")
 std_obj.fname()
+std_obj.age=21
+print(f"Age: {std_obj.age}")
 
 # simple example
 
@@ -27,3 +29,4 @@ print(obj_cal.add())
 print(obj_cal.sub())
 print(obj_cal.mul())
 print(obj_cal.div())
+
